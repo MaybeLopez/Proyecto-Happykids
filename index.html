@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stilos.css">
+    <title>Happy Kids</title>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="img/LOGO 1.png" alt="logoo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Emociones</a></li>
+                <li><a href="#">Experimetos</a></li>
+                <li><a href="#">Aprende Ingles</a></li>
+                <li><a href="#">Cuentos</a></li>
+            </ul>
+            <div class="gallardete">
+                <img src="img/Recurso gallardete.png" alt="logoo">
+            </div>
+        </nav>
+    </header>
+
+<div>
+
+    <h2>Vamos a aprender de las emociones</h2>
+    <h3>Primero: ¿Qué color es cada emoción para ti ?</h3>
+   
+
+    <div class="gallery">
+        <div class="image-container">
+            <img src="img/angry.png" alt="furia">
+            <div class="button-container">
+                <button> <a href="angry.pdf " target=_blank>Imprimir</button>
+                <button><a href="https://www.supercoloring.com/es/node/398996?colore=online"colorear target="_blank" >Colorear Online </button>
+
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="img/disgus.png" alt="desagrado">
+            <div class="button-container">
+                <button> <a href="disgust.pdf " target=_blank>Imprimir</button>
+                <button><a href="https://www.supercoloring.com/es/node/398996?colore=online"colorear target="_blank" >Colorear Online </button>
+            </div>
+        </div>
+
+
+        <div class="image-container">
+            <img src="img/fear.png" alt="temor">
+            <div class="button-container">
+                <button> <a href="fear.pdf " target=_blank>Imprimir</button>
+                <button><a href="https://www.supercoloring.com/es/node/398992?colore=online"colorear target="_blank" >Colorear Online </button>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="img/inside-out-joy-coloring-page.png" alt="alegria">
+            <div class="button-container">
+                <button> <a href="joy.pdf " target=_blank>Imprimir</button>
+                <button><a href="https://www.supercoloring.com/es/node/398990?colore=online"colorear target="_blank" >Colorear Online </button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="img/inside-out-sadness-coloring-page.png" alt="tristeza">
+            <div class="button-container">
+                <button> <a href="sad.pdf " target=_blank>Imprimir</button>
+                <button><a href="https://www.supercoloring.com/es/node/398994?colore=online"colorear target="_blank" >Colorear Online </button></a>
+
+
+            </div>
+        </div>
+    </div>
     
+ <h2>¿Que son las emociones para ti?</h2>
+ <div class="cuadro">
+    <textarea placeholder="Escribe tu respuesta aquí"></textarea>
+    <button onclick="guardarRespuesta()" class="save-button">Guardar Respuesta</button>
+</div>
+
+  <h3> En este video aprenderemos la importancia de las emociones, cuáles son las emociones básicas, para que nos sirven y cómo nuestro cuerpo las interpreta y reacciona ante ellas.</h3>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/__NmMOkND8g?si=Bjz1QFBRFoL8nkzi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h3>Da click Conoce tus emociones con Intensamente</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HQg3UrS1Vbo?si=np4CasnmHAgx1R1c&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h3>Diviertete Explorando Nuevas Emociones</h3>
+<iframe style="max-width:100%" src="https://wordwall.net/es/embed/c1f839673c3e46fc8852acd17551eaf2?themeId=1&templateId=46&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+<h3>Juego de Tablero de la Rueda de las Emociones</h3>
+<iframe style="max-width:100%" src="https://wordwall.net/es/embed/9310ee0d421c487180a56b9d65100d15?themeId=1&templateId=8&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+
+<h3>¿Qué hacer con tus emociones cuando son muy grandes?</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sANBOktr70c?si=4pQhU40CchWDLrrr&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3>Completar la siguiente sopa de letras. </h3>
+<h3>Indicaciones: </h3>
+<p>Da click en el <a href="img/sopa de letras.jpg" target="_blank" >enlace</a>
+, Imprime   y completa la siguiente sopa de letras .</p>
+<img class="sopadeletras" src="img/sopa de letras.jpg"> </a>
+
+
+
+
+    <h2>Mini Cuestionario</h2>
+
+<form id="quizForm">
+    <div class="question">
+        <p>1. Cuando visitas un parque de diversiones donde puedes jugar muchos juegos y ganar premios, ¿cómo te sientes?</p>
+        <textarea id="sentimiento-parque" name="sentimiento-parque" rows="4" cols="50" required></textarea>
+    </div>
+    
+    <div class="question">
+        <p>2. ¿Qué situación te hace sentir incómodo?</p>
+        <textarea id="situacion-incomodo" name="situacion-incomodo" rows="4" cols="50" required></textarea>
+    </div>
+    
+    <div class="question">
+        <p>3. ¿Recuerdas cuando jugaste fútbol o cualquier otro juego por primera vez? ¿Qué sentiste?</p>
+        <textarea id="primer-juego" name="primer-juego" rows="4" cols="50" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">Enviar Respuestas</button>
+</form>
+
+<div class="container">
+    <button onclick="imprimirPagina()">Imprimir</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+<!-- archivo JavaScript -->
+    <script src="website.js"></script>
+
+
 </body>
+<footer>
+    <p>Conocé nuestra Política de privacidad | ©2024 Happy_kids. Todos los derechos reservados</p>
+</footer>
+
 </html>
+
+
+<!--REVISAR TODOS LOS BOTONES IMPRIMIR
+AGREGAR LINKS
+AGREGAR FONDO 
+ARREGLAR MENU Y COLORES DEL MENU-->
