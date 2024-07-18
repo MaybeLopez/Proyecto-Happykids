@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+body{ 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40;
+    padding: 30;
+    background-color:rgba(253, 249, 245, 1);
+    text-align: center;
+    color: rgba(239, 129, 27, 1);
+
+}
+
+header{
+    display: flex; 
+    flex-direction: row; 
+    justify-content:space-between;
+    background-color: rgba(253, 249, 245, 1);
+    width: 100%; 
+    font-family: Arial, sans-serif;
+    color: rgba(239, 129, 27, 1);
+
+    
+  }
+img{
+    width: 150px;  }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        float:left;
+        padding: 25px 16px;
+
+
+     }
+
+li a {
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  color:rgba(239, 129, 27, 1);
+
+}
+
+li:hover{
+    color:rgba(253, 104, 104, 1);
+    text-decoration: underline;
+
+}
+
+
+.gallardete {
+    width: 100%;
+    }
+    
+.gallery {
+    display: flex;
+    flex-wrap: row;
+    gap: 30px;
+    justify-content: center;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-container img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+    margin-top: auto;
+    
+}
+.button-container button {
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #5dd661;
+    color: black;
+    border: none;
+    margin: 3px;
+    border-radius: 9px;
+}
+
+.button-container button:hover {
+    background-color: #e0ff47;
+
+}
+
+.cuadro textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: rgba(104, 172, 221, 1);
+}
+
+a [href] {
+color:rgba(239, 129, 27, 1);
+}
+
+.sopadeletras{
+width: 30%;
+position: center;
+}
